@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Naya_FacebookComments</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>"Naya - Facebook Comments" extension allow visitors to post Facebook comments on your product page.</summary>
+    <description>Improve your Magento commenting experience and enhance your site traffic with "Naya - Facebook Comments" extension. Visitors can easily post the comments using their Facebook accounts and the posts will also appear in their Facebook wall.</description>
+    <notes>Initial release.</notes>
+    <authors><author><name>Damir Perkosan</name><user>dperkosan</user><email>dperkosan@gmail.com</email></author></authors>
+    <date>2014-09-12</date>
+    <time>15:10:49</time>
+    <contents><target name="magecommunity"><dir name="Naya"><dir name="Base"><dir name="Helper"><file name="Data.php" hash="c8e570f1b43c26fc283c671d08500b73"/></dir><dir name="etc"><file name="config.xml" hash="f8e52dc85832a20709958cca13402daa"/><file name="system.xml" hash="19d728b32254cae1eb3b0a89b0b3a1f4"/></dir></dir><dir name="FacebookComments"><dir name="Block"><file name="Facebookcomments.php" hash="a6be26582d503cb098ecacd02f29af33"/></dir><dir name="Helper"><file name="Data.php" hash="506c5f4389e0d9b0b8e835a86029aa11"/></dir><dir name="Model"><file name="Languages.php" hash="25d96573a6a74b5058ce2cee6cd51115"/></dir><dir name="etc"><file name="adminhtml.xml" hash="7b4ea23a3ab190a723bcc3195506bf33"/><file name="config.xml" hash="1ead3a62aa35a5a050c09ffebd80dada"/><file name="system.xml" hash="987ff79ceeb1fd2bea36982f4b4d93b1"/></dir></dir></dir></target><target name="magelocale"><dir><dir name="en_US"><file name="Naya_Base.csv" hash="d41d8cd98f00b204e9800998ecf8427e"/><file name="Naya_FacebookComments.csv" hash="d41d8cd98f00b204e9800998ecf8427e"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Naya_Base.xml" hash="5a34d072400c7079ce8f79e3d288b7e8"/><file name="Naya_FacebookComments.xml" hash="9eab96fcdc73d3a8eccdb5297bfaa986"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="naya_facebookcomments.xml" hash="90d54b8ed5fb051827f7f4c245a066a4"/></dir><dir name="template"><dir name="naya"><dir name="facebookcomments"><file name="facebookcomments.phtml" hash="cb5c8ca3d67b3bb212aeb1d5c29d6cc9"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
