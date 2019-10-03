@@ -1,16 +1,5 @@
 {
-    "name": "OpenMageModuleFostering/Naya_FacebookComments",
-    "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
-    "homepage": "",
-    "description": ""Naya - Facebook Comments" extension allow visitors to post Facebook comments on your product page.",
-    "authors": [
-    {
-        "name": "Damir Perkosan",
-        "email": "dperkosan@gmail.com"
-    }
-],
-    "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+    "keywords": [
+        "openmage-module"
+    ]
 }
